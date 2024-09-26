@@ -4,6 +4,14 @@
 
 Welcome! This repository contains all of the code, notebooks, images and other materials related to the [Zero to Mastery Machine Learning Course on Udemy](https://dbourke.link/mlcourse) and [zerotomastery.io](https://dbourke.link/ZTMmlcourse).
 
+### Environment setup
+Download Mini Conda
+Open anaconda command prompt and install the packages using below command
+
+1. conda create --prefix ./env pandas numpy matplotlib scikit-learn jupytor
+2. conda install jupyter
+3. conda activate C:\Work\workspace\PracticePrograms\MachineLearning\env
+
 ## Quick links
 * 🎥 Watch the [first 10 hours of the course on YouTube](https://youtu.be/r67SfaiYaDI).
 * 📚 Read the materials of the course in a [beautiful online book](https://dev.mrdbourke.com/zero-to-mastery-ml/).
