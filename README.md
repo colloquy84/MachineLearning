@@ -10,7 +10,19 @@ Open anaconda command prompt and install the packages using below command
 
 1. conda create --prefix ./env pandas numpy matplotlib scikit-learn
 2. conda install jupyter
-3. conda activate C:\Work\workspace\PracticePrograms\MachineLearning\env
+3. conda activate C:\Work\workspace\PracticePrograms\Python\MachineLearning\env
+4. Run below command to launch jupyter notebook	
+	jupyter notebook
+
+### How to run jupyter notebook when the environemnt is already setup
+1. Search for miniconda in wondows start menu and run it.
+2. Go to the folder where you have all your jupyter files stored at.
+	cd c:\Work\workspace\PracticePrograms\Python\MachineLearning
+3. Activate conda environment using the command 
+	conda activate c:\Work\workspace\PracticePrograms\Python\MachineLearning\env
+4. Run below command to launch jupyter notebook	
+	jupyter notebook
+	
 
 ## Quick links
 * 🎥 Watch the [first 10 hours of the course on YouTube](https://youtu.be/r67SfaiYaDI).
