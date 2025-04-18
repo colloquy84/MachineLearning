@@ -1,12 +1,3 @@
-### Environment setup
- Download Mini Conda
- Open anaconda command prompt and install the packages using below command
- 
- 1. conda create --prefix ./env pandas numpy matplotlib scikit-learn 
- 2. conda install jupyter
- 3. conda activate C:\Work\workspace\PracticePrograms\MachineLearning\env
-
-
 # Zero to Mastery Machine Learning
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrdbourke/zero-to-mastery-ml/master)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrdbourke/zero-to-mastery-ml/blob/master)
@@ -17,7 +8,7 @@ Welcome! This repository contains all of the code, notebooks, images and other m
 Download Mini Conda
 Open anaconda command prompt and install the packages using below command
 
-1. conda create --prefix ./env pandas numpy matplotlib scikit-learn jupytor
+1. conda create --prefix ./env pandas numpy matplotlib scikit-learn
 2. conda install jupyter
 3. conda activate C:\Work\workspace\PracticePrograms\MachineLearning\env
 
