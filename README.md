@@ -8,18 +8,19 @@ Welcome! This repository contains all of the code, notebooks, images and other m
 Download Mini Conda
 Open anaconda command prompt and install the packages using below command
 
-1. conda create --prefix ./env pandas numpy matplotlib scikit-learn
-2. conda install jupyter
-3. conda activate C:\Work\workspace\PracticePrograms\Python\MachineLearning\env
-4. Run below command to launch jupyter notebook	
+1. conda create -n myenv-python3.12 python=3.12
+2. conda activate myenv-python3.12
+3. conda install pandas numpy matplotlib scikit-learn jupyter pydotplus
+4. conda install tensorflow
+5. Run below command to launch jupyter notebook	
 	jupyter notebook
 
 ### How to run jupyter notebook when the environemnt is already setup
-1. Search for miniconda in wondows start menu and run it.
+1. Search for Anaconda prompt in wondows start menu and run it.
 2. Go to the folder where you have all your jupyter files stored at.
-	cd c:\Work\workspace\PracticePrograms\Python\MachineLearning
+	cd D:\Workspace\Python\MachineLearning
 3. Activate conda environment using the command 
-	conda activate c:\Work\workspace\PracticePrograms\Python\MachineLearning\env
+	conda activate myenv-python3.12
 4. Run below command to launch jupyter notebook	
 	jupyter notebook
 	
