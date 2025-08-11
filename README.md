@@ -10,9 +10,10 @@ Open anaconda command prompt and install the packages using below command
 
 1. conda create -n myenv-python3.12 python=3.12
 2. conda activate myenv-python3.12
-3. conda install pandas numpy matplotlib scikit-learn jupyter pydotplus
-4. conda install tensorflow
-5. Run below command to launch jupyter notebook	
+3. conda install pandas numpy matplotlib scikit-learn jupyter pydotplus, seaborn, xlrd
+4. pip install statsmodels
+5. conda install tensorflow
+6. Run below command to launch jupyter notebook	
 	jupyter notebook
 
 ### How to run jupyter notebook when the environemnt is already setup
